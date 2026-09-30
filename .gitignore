@@ -1,0 +1,17 @@
+# Файл із умовою від викладача — не публікуємо
+*_task.docx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ОС
+Thumbs.db
+desktop.ini
+.DS_Store
