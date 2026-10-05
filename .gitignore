@@ -15,3 +15,8 @@ venv/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# Дані змагання Kaggle: правила забороняють передавати їх поза командою
+data/
+*.csv
+*.zip
