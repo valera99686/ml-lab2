@@ -9,12 +9,16 @@
 
 Відтворити базовий життєвий цикл класифікації на даних змагання Kaggle [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk/data) (таблиці `application_train.csv` та `application_test.csv`): підготувати дані, розділити їх на навчальну й валідаційну вибірки, навчити `DecisionTreeClassifier` із параметрами за замовчуванням, оцінити за ROC-AUC, побудувати матрицю помилок, провести аналіз помилок і сформувати submission-файл.
 
-## Результати (валідаційна вибірка, 20 % даних)
+## Результати
+
+Accuracy, Recall, Precision та матриця помилок рахувалися на валідаційній вибірці (20 % навчальних даних); оцінки Kaggle — на прихованих відповідях для `application_test.csv`.
 
 | Метрика | Значення |
 |---|---|
 | ROC-AUC (навчальна вибірка) | 1.0000 |
 | ROC-AUC (валідаційна вибірка) | **0.5382** |
+| Kaggle Late Submission, Public score | 0.52714 |
+| Kaggle Late Submission, Private score | 0.53287 |
 | Accuracy | 0.8539 (проста відповідь «завжди 0» дала б 0.9193) |
 | Recall (знайдено дефолтів) | 0.1617 |
 | Precision | 0.1428 |
@@ -34,6 +38,7 @@
 7. Матриця помилок
 8. Аналіз помилок
 9. Прогноз для тестових даних та submission-файл
+10. Результат на Kaggle (Late Submission)
 
 ## Дані
 
